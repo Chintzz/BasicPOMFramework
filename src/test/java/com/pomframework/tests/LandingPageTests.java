@@ -2,16 +2,13 @@ package com.pomframework.tests;
 
 
 import org.testng.annotations.Test;
-
 import com.pomframework.pages.CartDialog;
 import com.pomframework.pages.LandingPage;
 
 public class LandingPageTests extends BaseTest{
+
 	
 	
-	
-	
-//	
 //	@Test
 //	public void validateNavigationToAuthentiationPg(){
 //		
