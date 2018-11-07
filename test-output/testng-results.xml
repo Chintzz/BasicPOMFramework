@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4143" started-at="2018-11-06T23:41:16Z" finished-at="2018-11-06T23:41:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4143" started-at="2018-11-06T23:41:16Z" finished-at="2018-11-06T23:41:21Z">
+      <class name="com.pomframework.tests.LandingPageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pomframework.tests.LandingPageTests@2dc54ad4]" name="setup" is-config="true" duration-ms="1166" started-at="2018-11-06T23:41:16Z" finished-at="2018-11-06T23:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateAddItemToCart()[pri:0, instance:com.pomframework.tests.LandingPageTests@2dc54ad4]" name="validateAddItemToCart" duration-ms="2959" started-at="2018-11-06T23:41:18Z" finished-at="2018-11-06T23:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddItemToCart -->
+      </class> <!-- com.pomframework.tests.LandingPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
