@@ -9,22 +9,22 @@ public class LandingPageTests extends BaseTest{
 
 	
 	
-//	@Test
-//	public void validateNavigationToAuthentiationPg(){
+	@Test
+	public void validateNavigationToAuthentiationPg(){
+		
+		LandingPage landingPgObj = openSite();
+		landingPgObj.clickOnSignInLink();
+		
+//		Assert.assertEquals(authenticationPgObj.checkPageTitle(), "Login - My Store", "The page title doesn't match the expected value");
 //		
-//		LandingPage landingPgObj = openSite();
-//		landingPgObj.clickOnSignInLink();
-//		
-////		Assert.assertEquals(authenticationPgObj.checkPageTitle(), "Login - My Store", "The page title doesn't match the expected value");
-//		
-//		
-//	}
+		
+	}
 	
-//	@Test
-//	public void validateNavigationToTShirtPg(){
-//		LandingPage2 landingPgObj = openSite();
-//		landingPgObj.navigateToTShirtsPg();
-//	}
+	@Test
+	public void validateNavigationToTShirtPg(){
+		LandingPage landingPgObj = openSite();
+		landingPgObj.navigateToTShirtsPg();
+	}
 	
 	@Test
 	public void validateAddItemToCart(){
