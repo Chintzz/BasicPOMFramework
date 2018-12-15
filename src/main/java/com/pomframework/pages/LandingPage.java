@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.qameta.allure.Step;
+
 
 public class LandingPage  {
 	
@@ -57,19 +59,21 @@ public class LandingPage  {
 	
 	//page actions or behaviours
 	
-	
+	@Step("Navigate to Shirts page")
 	public void navigateToTShirtsPg(){
 		actions.moveToElement(womenLink).build().perform();
 		tShirtLink.click();
 		
 	}
 	
+	@Step("Navigate to Blouses page")
 	public void navigateToBlousesPg(){
 		actions.moveToElement(womenLink).perform();
 		blousesLink.click();
 		
 	}
 	
+	@Step("Add an item to Cart")
 	public CartDialog addItemToCart(){
 		System.out.println("The Product is" +productName.getText());
 		actions.moveToElement(productName).perform();
@@ -96,6 +100,7 @@ public class LandingPage  {
 //		
 //	}
 	
+	@Step("sign in to the website")
 	public void clickOnSignInLink(){
 		
 		signInLink.click();
